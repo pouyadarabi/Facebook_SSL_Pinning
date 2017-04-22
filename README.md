@@ -22,7 +22,9 @@ After patching these offsets to **0xB9D9** and **0xB9D6**, patched lib should be
 
 ![after_patching](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/after.jpg)
 
+---
 
+![Burp](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/burp.png)
 
 ---
 
