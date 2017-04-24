@@ -4,7 +4,7 @@ Bypassing Facebook SSL pinning for version 120.0.0.18.72 | Min API 15 | April 18
 
 #### libcoldstart.so
 
-Replace the libcoldstart.so file in **/data/data/com.facebook.orca/lib-xzs**
+Replace the libcoldstart.so file in **/data/data/com.facebook.katana/lib-xzs**
 
 
 
