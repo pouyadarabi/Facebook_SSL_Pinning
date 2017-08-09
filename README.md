@@ -1,5 +1,6 @@
 # Facebook_SSL_Pinning
-Bypassing Facebook SSL pinning for version 120.0.0.18.72 | Min API 15 | April 18, 2017
+Bypassing Facebook SSL pinning for version 136.0.0.22.91 | Min API 15 | August 8, 2017
+[Download Link](http://www.apkmirror.com/apk/facebook-2/facebook/facebook-136-0-0-22-91-release/facebook-136-0-0-22-91-2-android-apk-download/)
 
 
 #### libcoldstart.so
@@ -12,19 +13,19 @@ Replace the libcoldstart.so file in **/data/data/com.facebook.katana/lib-xzs**
 
 
 
-We need to patch **0x001EB138** and **0x001EB13A**:
+We need to patch **0x0018C4D0** and **0x0018C4D2**:
 
-![before_patching](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/before.jpg)
+![before_patching](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/before.jpg?123)
 
 
 After patching these offsets to **0xB9D9** and **0xB9D6**, patched lib should be like this:
 
 
-![after_patching](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/after.jpg)
+![after_patching](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/after.jpg?123)
 
 ---
 
-![Burp](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/burp.png)
+![Burp](https://raw.githubusercontent.com/pouyadarabi/Facebook_SSL_Pinning/master/burp.jpg?123)
 
 ---
 
