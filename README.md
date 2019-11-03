@@ -1,3 +1,7 @@
+------
+# Deprecated: Use Facebook whitehat setting
+------
+
 # Facebook_SSL_Pinning
 Bypassing Facebook SSL pinning
 
